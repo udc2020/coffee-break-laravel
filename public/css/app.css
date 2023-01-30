@@ -1,0 +1,28 @@
+:root{
+   --primary:#fff1c1ea;
+   --secondary:#1f1010!important;
+   
+}
+
+body{
+   background-color: #fff1c171;
+}
+
+
+.btn-primary{
+   background-color: var(--primary)!important;
+   color: #1f1010!important;
+   border-color:inherit ;
+}
+
+.carousel-item img{
+   height: 700px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+a.blog{
+   text-decoration: none;
+   color: var(--secondary);
+}
